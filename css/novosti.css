@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+
+/* list */
+
+.parentnav{
+    width: 100%;
+    margin: auto;
+}
+
+
+.inlinenav{
+    display: flex;
+}
+
+
+.list li{
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.list li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 65px;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+.list span{
+    color: orange;
+}
+
+.list li a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+
+.text h1{
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+

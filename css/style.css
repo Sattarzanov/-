@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background: url(../img/banner.jpg) center / cover;
+}
+
+.parenttext{
+    width: 100%;
+    margin: auto
+}
+
+
+.parenttext h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 55px 100px;  
+}
+
+
+.parenttext h3{
+    color: white;
+    font-family: 'Roboto';
+    margin: 25px 100px;
+}
+
+
+.parenttext span{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+
+/* LINK */
+
+
+.parentlinks{
+    width: 100%;
+    margin: auto;
+}
+
+
+.inlinelinks{
+    display: inline-flex;
+}
+
+
+.links li{
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.links li a{
+    color: orange;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 80px;
+    transition: 1s;
+}
+
+
+.links li a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 1s;
+}
+
+
+/* Language */
+
+
+.parentlanguage{
+    width: 100%;
+    margin: auto;
+}
+
+
+.inlinelanguage{
+    display: inline-flex;
+}
+
+
+.language li{
+    color: orange;
+    margin-left: 15px;
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.language li a{
+    color: orange;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+
+
+.language li a:hover{
+    color: white;
+    font-size: 18px;
+    transition: 1s;
+}
+
+/* footer */
+
+.footer p{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* Button */
+
+.callback-bt {
+    background:orange;
+    border:2px solid orange;
+    border-radius:50%;
+    cursor:pointer;
+    height:68px;
+    text-align:center;
+    width:68px;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index:999;
+    transition:.3s;
+    -webkit-animation:hoverWave linear 1s infinite;
+    animation:hoverWave linear 1s infinite;
+}
+
+.callback-bt .text-call{
+    height:68px;
+    width:68px;        
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+}
+
+.callback-bt .text-call span {
+text-align: center;
+color:orange;
+opacity: 0;
+font-size: 0;
+    position:absolute;
+    right: 4px;
+    top: 22px;
+line-height: 14px;
+    font-weight: 600;
+text-transform: uppercase;
+transition: opacity .3s linear;
+font-family: 'montserrat', Arial, Helvetica, sans-serif;
+}
+.callback-bt i {
+    color:#fff;
+    font-size:34px;
+    transition:.3s;
+    line-height: 66px;transition: .5s ease-in-out;
+}
+
+/* animations icon */
+
+@keyframes shake {
+0% {
+transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+}
+10% {
+transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    -webkit-transform: rotateZ(-30deg);
+}
+20% {
+transform: rotateZ(15deg);
+    -ms-transform: rotateZ(15deg);
+    -webkit-transform: rotateZ(15deg);
+}
+30% {
+transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    -webkit-transform: rotateZ(-10deg);
+}
+40% {
+transform: rotateZ(7.5deg);
+    -ms-transform: rotateZ(7.5deg);
+    -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+transform: rotateZ(-6deg);
+    -ms-transform: rotateZ(-6deg);
+    -webkit-transform: rotateZ(-6deg);
+}
+60% {
+transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    -webkit-transform: rotateZ(5deg);
+}
+70% {
+transform: rotateZ(-4.28571deg);
+    -ms-transform: rotateZ(-4.28571deg);
+    -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+transform: rotateZ(3.75deg);
+    -ms-transform: rotateZ(3.75deg);
+    -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+transform: rotateZ(-3.33333deg);
+    -ms-transform: rotateZ(-3.33333deg);
+    -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+}
+}
+
+@-webkit-keyframes shake {
+0% {
+transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+}
+10% {
+transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    -webkit-transform: rotateZ(-30deg);
+}
+20% {
+transform: rotateZ(15deg);
+    -ms-transform: rotateZ(15deg);
+    -webkit-transform: rotateZ(15deg);
+}
+30% {
+transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    -webkit-transform: rotateZ(-10deg);
+}
+40% {
+transform: rotateZ(7.5deg);
+    -ms-transform: rotateZ(7.5deg);
+    -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+transform: rotateZ(-6deg);
+    -ms-transform: rotateZ(-6deg);
+    -webkit-transform: rotateZ(-6deg);
+}
+60% {
+transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    -webkit-transform: rotateZ(5deg);
+}
+70% {
+transform: rotateZ(-4.28571deg);
+    -ms-transform: rotateZ(-4.28571deg);
+    -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+transform: rotateZ(3.75deg);
+    -ms-transform: rotateZ(3.75deg);
+    -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+transform: rotateZ(-3.33333deg);
+    -ms-transform: rotateZ(-3.33333deg);
+    -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+}
+}
+/* конец кнопки звонка */

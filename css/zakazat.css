@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+
+/* list */
+
+.parentnav{
+    width: 100%;
+    margin: auto;
+}
+
+
+.inlinenav{
+    display: flex;
+}
+
+
+.list li{
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.list li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 65px;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+.list span{
+    color: orange;
+}
+
+.list li a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+
+/* Заказать */
+
+
+.parentzakaz{
+    width: 100%;
+    margin: auto;
+}
+
+
+.zakaz h2{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    margin-left: 550px;
+    margin-top: 80px;
+}
+
+.zakaz p{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 450px;
+}
+
+
+.inlinezakaz{
+    display: flex;
+}
+
+
+.zakazicons li{
+    display: inline-flex;
+    list-style: none;
+}
+
+
+.zakazicons li a i{
+    color: white;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-top: 40px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: orange;
+    width: 70px;
+    height: 60px;
+    border-radius: 15px;
+    border: 5px solid rgb(255, 255, 255);
+    transition: 1s;
+}
+
+
+.zakazicons li a i:hover{
+    transform: rotate(360deg) scale(1.1);
+    border-radius: 100%;
+    transition: 1s;
+}

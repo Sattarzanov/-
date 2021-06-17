@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+/* list */
+
+.parentnav{
+    width: 100%;
+    margin: auto;
+}
+
+
+.inlinenav{
+    display: flex;
+}
+
+
+.list li{
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.list li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 65px;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+.list span{
+    color: orange;
+}
+
+.list li a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+.Text h1{
+    color: white;
+    margin-left: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.Text p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.inlinecontacts{
+    display: flex;
+}
+
+.iconstext li{
+    list-style: none;
+    color: white;
+    font-family: Arial black;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 350px;
+    font-size: 25px;
+}
+
+.iconstext li i{
+    color: white;
+}
+
+
+.iconstext li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+
+.iconstext li a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+.iconstext li img{
+    width: 550px;
+    height: 550px;
+}
